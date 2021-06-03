@@ -1,7 +1,19 @@
-# Subway Liner
+# Subway Line Informer
 
-## Goal
+지하철 역과 역 사이의 최단 경로와 역의 혼잡도 정보를 제공해주는 웹 페이지
 
-- [ ] create web page using Node, Express, React and MongoDB
-- [ ] get subway line data from public api
-- [ ] don't give up
+## Functions
+
+- [ ] 역과 역을 입력하면 최단 경로를 보여준다.
+- [ ] 입력한 역의 정보를 보여준다.
+
+## Stack
+
+- Node
+- Express
+- Axios
+
+## 내가 이 프로젝트를 만들어야 하는 이유
+
+- 서울에서 거주한지 얼마 안 되어 각 지하철 역 간 최단 경로 또는 그 역이 얼마나 붐비는지 모른다. 따라서 역 간 경로나 해당 역에 관한 정보를 구체적인 수치로 알면, 해당 역을 가기 위한 준비를 더 잘 할 수 있다. 즉, 나에게 주어진 자원을 더 효율적으로 활용할 수 있다.
+- (현재까지 상상해봤을 때) Node, Express, 그래프 알고리즘을 연습하기 좋다.
