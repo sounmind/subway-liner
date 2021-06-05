@@ -1,0 +1,18 @@
+extends base.pug
+
+block content
+  .station-selected
+    .start-station 출발역: #{startStation.STATN_NM}
+    .end-station 도착역: #{endStation.STATN_NM}
+  .result-container
+    h3.distance 역 간 거리:
+      li
+        span.value #{distance}
+        span km
+    h3.distance 소요 시간:
+      li
+        span.value #{time}
+        span min
+    h3.crowdedness 혼잡도: 한 달 전, 이 시간대 기준 평균
+      li.start-station 출발 역(승차 인원): #{stationIn}
+      li.end-station 도착 역(하차 인원): #{stationOut}

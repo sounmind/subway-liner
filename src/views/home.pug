@@ -1,0 +1,13 @@
+extends base.pug
+
+block content
+  .form-container
+  form(action="/search" method="get")
+    .description 역 간 거리 검색 (1~4호선, 환승 안 됨😥)
+    input(class="start-station-input" name="start" type="text" placeholder="출발 역(예: 신림)을 입력하세요.")
+    input(class="end-station-input" name="end" type="text" placeholder="도착 역(예: 삼성)을 입력하세요.")
+    button(type="submit") 검색하기
+
+
+
+
